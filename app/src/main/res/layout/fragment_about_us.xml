@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="#ffffff"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:background="@drawable/joey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:minWidth="0dp"
+            android:maxWidth="0dp"
+            android:id="@+id/joey_img"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:maxWidth="350dp"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:layout_below="@+id/joey_img"
+            android:textAlignment="center"
+            android:id="@+id/des_text"
+            android:text="This app is made by Joey Tribbiani as part of the Internshala's Online Training Project."/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:maxWidth="350dp"
+            android:textSize="20sp"
+            android:layout_below="@id/des_text"
+            android:textColor="#212121"
+            android:textAlignment="center"
+            android:text="App Version 1.0"/>
+
+</RelativeLayout>
