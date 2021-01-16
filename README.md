@@ -10,6 +10,7 @@ A Music Player built with kotlin with live visualizer
 
 <p align="center">
     <img src="app/src/main/res/drawable/img3.jpeg" height="500px">
+    <img src="app/src/main/res/drawable/img2.jpeg" height="500px">
 </p>
 
 <p align="center">
